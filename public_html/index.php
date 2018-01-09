@@ -10,7 +10,7 @@
   <meta charset="Unicode/UTF-8">
   <meta name="description" content="GBU Social Service Club is a club associated with Dr. Sandhaya Tarar in SOICT School Of Information and communication technology">
   <meta name="keywords" content="social service club gbu school of ICT">
-
+  <script src="https://use.fontawesome.com/2c153c4a21.js"></script>
 </head>
 <body>
   
@@ -53,7 +53,7 @@
 
 <?php
 
-include './footer.txt';
+include './footer.php';
 
 ?>
 

@@ -8,39 +8,22 @@
   <meta name="theme-color" content="lightpink">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="Unicode/UTF-8">
-  
+  <script src="https://use.fontawesome.com/2c153c4a21.js"></script>
 
 </head>
 <body>
-  
-
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8&appId=1263775450361749";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-
-
-  <?php
-
-    include './menu.txt';
-
-  ?>
+<?php include './menu.txt'; ?>
 <br>
 <br>
-<br>
-  <div class="col-9 commitee" style="float: initial;margin-left: auto;margin-right: auto;color: black;height: 300px; background-color: rgba(111,111,111,0.7); border-radius: 50px; min-height: 100%;">
+  <div class="col-9 commitee" style="float: initial;margin-left: auto;margin-right: auto;color: white;height: 300px; background-color: rgba(111,111,111,1); border-radius: 50px; min-height: 100%;">
   
   <br>
     <h2 style="text-align: center;">Our Team</h2>
+    <hr>
     <table style="width: 100%;">
       <tr>
         <td>Faculty Coordinator :- </td>
-        <td>Dr. Sadhya Tarar <br> Dr. Manmohan Singh Shishodia <br>Dr. Vinay Kumar Litoria</td>
+        <td>Dr. Sadhya Tarar&nbsp;&nbsp; <a href="http://www.sandhyatarar.com" style="color: lightgrey;"> Website </a><br> Dr. Manmohan Singh Shishodia <br>Dr. Vinay Kumar Litoria</td>
       </tr>
 
       <tr>
@@ -184,7 +167,7 @@
 
 <?php
 
-include './footer.txt';
+include './footer.php';
 
 ?>
 
